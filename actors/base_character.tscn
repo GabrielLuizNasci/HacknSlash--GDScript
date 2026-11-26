@@ -634,12 +634,12 @@ metadata/_custom_type_script = "uid://djkxnn4im6tv6"
 [node name="CameraMount" type="Node3D" parent="." unique_id=452783632]
 script = ExtResource("9_ppnpu")
 
-[node name="h" type="Node3D" parent="CameraMount" unique_id=593993199]
+[node name="H" type="Node3D" parent="CameraMount" unique_id=593993199]
 
-[node name="v" type="SpringArm3D" parent="CameraMount/h" unique_id=2118355075]
+[node name="V" type="SpringArm3D" parent="CameraMount/H" unique_id=2118355075]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.6735942, 0)
 spring_length = -4.0
 margin = 0.02
 
-[node name="CharacterController" type="Camera3D" parent="CameraMount/h/v" unique_id=466045199]
+[node name="CharacterController" type="Camera3D" parent="CameraMount/H/V" unique_id=466045199]
 transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0, 0, 0)
